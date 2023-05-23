@@ -1,0 +1,60 @@
+/* ここから下に記載していく */
+/* TOP写真 */
+html{
+    font-size:100%;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+body{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+}
+
+header{
+    width:100%;
+    padding:0 2%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-left:50px;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+    font-size: 21px;
+}
+/* 以下、2段目 */
+.a1{letter-spacing: 30px;}
+a2{letter-spacing: 40px;}
+.a3{letter-spacing: 60px;}
+a4{letter-spacing: 80px;}
+.font16{font-size: 16px;}
+.font18{
+    font-size: 18px;
+    color: #222222;
+}
+.font24{
+    font-size: 24px;
+    color: #ffd61a;
+}
+li{
+    display: inline-block;
+}
